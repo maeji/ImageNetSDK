@@ -33,6 +33,7 @@
 		33B0AD2A1F32C902001EF6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B0AD371F32C9B0001EF6D1 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		33B0AD381F32C9B0001EF6D1 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		33B0AD3B1F331179001EF6D1 /* iOSImageNetSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSImageNetSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		33B0AD1C1F32C902001EF6D1 /* ImageNetSDK */ = {
 			isa = PBXGroup;
 			children = (
+				33B0AD3B1F331179001EF6D1 /* iOSImageNetSDK.h */,
 				33B0AD1D1F32C902001EF6D1 /* ImageNetSDK.h */,
 				33B0AD1E1F32C902001EF6D1 /* Info.plist */,
 				33B0AD371F32C9B0001EF6D1 /* NetworkManager.h */,
@@ -402,6 +404,7 @@
 				33B0AD301F32C902001EF6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33B0AD311F32C902001EF6D1 /* Build configuration list for PBXNativeTarget "ImageNetSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +413,7 @@
 				33B0AD331F32C902001EF6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

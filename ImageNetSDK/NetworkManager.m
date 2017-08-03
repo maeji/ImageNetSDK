@@ -11,7 +11,7 @@
 
 @implementation NetworkManager
 
-- (void)requestAPI {
++ (void)requestAPI {
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     

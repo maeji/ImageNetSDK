@@ -1,14 +1,14 @@
 //
-//  NetworkManager.h
+//  iOSImageNetSDK.h
 //  ImageNetSDK
 //
 //  Created by Hanju Park on 2017. 8. 3..
 //  Copyright © 2017년 Hanju Park. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef iOSImageNetSDK_h
+#define iOSImageNetSDK_h
 
-@interface NetworkManager : NSObject
+#import "NetworkManager.h"
 
-+ (void)requestAPI;
-@end
+#endif /* iOSImageNetSDK_h */
