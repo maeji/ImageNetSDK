@@ -9,7 +9,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.ios.deployment_target = '8.0'
   spec.public_header_files = 'ImageNetSDK/iOSImageNetSDK.h'
-  spec.source_files = 'ImageNetSDK/iOSImageNetSDK.h'
   spec.source_files = 'ImageNetSDK/*.{h,m}'
   spec.dependency 'AFNetworking', '3.1.0'
 
